@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css" integrity="sha512-tk4nGrLxft4l30r9ETuejLU0a3d7LwMzj0eXjzc16JQj+5U1IeVoCuGLObRDc3+eQMUcEQY1RIDPGvuA7SNQ2w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header"> 
+                <a href="/" class="main-logo">
+                    <img src="./image/logo.png" class="img" alt="logo"/>
+                </a>
+                <div class="login-container">
+                    <form  class="form-header">
+                        <div class="input-group">
+                            <input type="text" placeholder="Email" name="username">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Password" name="bohdan">
+                            <a href="#" class="forgot-pasword">Forgot your password?</a>
+                        </div>
+                        <a href="regform.html" class="btn btn-primary">Login</a>
+                    </form>
+                </div>
+            </header>
+            <div class="content">
+                <h1 class="title-page">Registration Form</h1>
+
+                <form id="regform" class="regform">
+                    <div class="email input-group">
+                        <input id="email" name="email" placeholder="Email">
+                        <span id="email-error" class="hide error-valid"></span>
+                    </div>
+                    <div class="password input-group">
+                        <input id="password" name="password" placeholder="Password">
+                        <span id="password-error" class="hide error-valid"></span>
+                    </div>
+                    <div class="age input-group">
+                        <input id="age" name="age" placeholder="Age">
+                        <span id="age-error" class="hide error-valid"></span>
+                    </div>
+                    <div class="location input-group">
+                        <input id="location" name="location" placeholder="Location">
+                        <span id="location-error" class="hide error-valid"></span>
+                    </div>
+                    <button class="btn btn-success" type="">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/regform.js"></script>
+</body>
+</html>
